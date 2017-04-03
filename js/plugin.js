@@ -200,4 +200,31 @@
 
 
 //---------------------------------------THIS----------------------------
-// Задание 1
+// // Задание 1
+// const rectangle = {
+//     width: 10,
+//     height: 15,
+//     getSquare: getSquare
+// };
+// function getSquare() {
+//     return this.width * this.height;
+// }
+// console.log(rectangle.getSquare());
+
+// // Задание 2
+// const price = {
+//     price: 10,
+//     discount: '15%',
+//     getPrice: getPrice,
+//     getPriceWithDiscount: getPriceWithDiscount
+// };
+// function getPrice() {
+//     return `Цена без скидки = ${this.price}`;
+// }
+// function getPriceWithDiscount() {
+//     return `Цена с учетом скидки = ${this.price * (100 - parseFloat(this.discount)) / 100}`;
+// }
+// console.log(price.getPrice());
+// console.log(price.getPriceWithDiscount());
+
+// Задание 3
